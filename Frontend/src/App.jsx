@@ -21,7 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<HomePage />} />{" "}
-            {/* Set this as the default page */}
+  
             <Route path="homePage" element={<HomePage />} />
             <Route path="Dashboard" element={<Dashboardpage />} />
             <Route path="login" element={<LoginPage />} />
