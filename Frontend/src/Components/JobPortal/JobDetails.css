@@ -48,17 +48,16 @@
 
 .job-container {
   display: flex;
-  justify-content: flex-start; /* Aligns items to the left */
-  align-items: flex-start; /* Ensures they are aligned at the top */
+  justify-content: flex-start;
+  align-items: flex-start; 
   padding: 20px;
 }
 
 .job-grid {
   display: flex;
-  flex-wrap: wrap;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
- 
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  gap: 20px; 
 }
 
 .job-info {
@@ -149,7 +148,7 @@
   color: #8c8c8c;
 }
 
-.job-grid {
+/* .job-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -158,7 +157,7 @@
   justify-content: center;
   margin-top: 30px;
   padding: 0 50px;
-}
+} */
 
 .job-card {
   background-color: white;
